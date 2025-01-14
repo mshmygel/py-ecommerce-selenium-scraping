@@ -1,7 +1,7 @@
-from dataclasses import dataclass, fields, astuple
 import time
 import csv
 from urllib.parse import urljoin
+from dataclasses import dataclass, fields, astuple
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.ie.webdriver import WebDriver
